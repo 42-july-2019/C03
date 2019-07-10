@@ -6,11 +6,11 @@
 /*   By: alabreui <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/09 14:55:44 by alabreui          #+#    #+#             */
-/*   Updated: 2019/07/09 14:57:17 by alabreui         ###   ########.fr       */
+/*   Updated: 2019/07/10 11:39:55 by alabreui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strlcat(char *dest, char *src, unsigned int size)
+unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 {
 	unsigned int length;
 	unsigned int i;
@@ -25,5 +25,5 @@ char	*ft_strlcat(char *dest, char *src, unsigned int size)
 		i++;
 	}
 	dest[length + i] = '\0';
-	return (dest);
+	return (length + i);
 }
