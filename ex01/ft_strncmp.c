@@ -6,7 +6,7 @@
 /*   By: alabreui <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/08 19:09:51 by alabreui          #+#    #+#             */
-/*   Updated: 2019/07/10 11:14:29 by alabreui         ###   ########.fr       */
+/*   Updated: 2019/07/10 11:45:21 by alabreui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,10 +38,10 @@ int		cmp_char(char *s1, char *s2, int i, int *loop_done)
 
 int		ft_strncmp(char *s1, char *s2, unsigned int n)
 {
-	unsigned int 	i;
-	int 			done;
-	int 			*loop_done;
-	int 			result;
+	unsigned int	i;
+	int				done;
+	int				*loop_done;
+	int				result;
 
 	if (n == 0)
 		return (0);
